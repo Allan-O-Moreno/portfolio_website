@@ -16,8 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Allans websitel
+          Allans website
         </a>
+     
+      
       </header>
     </div>
   );
