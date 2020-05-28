@@ -48,12 +48,11 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
     color: white;
     font-size: 20px;
     padding: 1em;
-    text-align: center;
   }
   .social-links {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 20%;
     margin: auto;
   }
   
