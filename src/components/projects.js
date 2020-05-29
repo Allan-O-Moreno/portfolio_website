@@ -33,11 +33,42 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>Swift</h1></div>
+        <div className="projects-grid">
+          {/* UNR Building Classifier Project */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn.worldvectorlogo.com/logos/swift-15.svg) center / cover'}} >UNR Building Classifier</CardTitle>
+            <CardText>
+              Mobile Application that classifies buildings at the University of Nevada, Reno. I was in charge 
+              of the Front End, and designed the application using swift.
+            </CardText>
+            <CardActions border>
+              <Button colored  href = "https://github.com/Allan-O-Moreno/UNRB" rel="noopener noreferrer" target="_blank">GitHub</Button>
+              <Button colored  href = "https://jmyamssi.wixsite.com/unrbc" rel="noopener noreferrer" target="_blank">Project Website</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+
+        </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>C++</h1></div>
+        <div className="projects-grid">
+          {/* UNR Building Classifier Project */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png) center / cover'}} >Asteroids Game</CardTitle>
+            <CardText>
+              Created a game engine using Ogre3D that consist of a input, graphics, sound, UI, entities, and physics. Utilizing the engine our team created the Team devloped a 3D asteroids game. 
+              I focused on the User Interface component of the game.
+            </CardText>
+            <CardActions border>
+              <Button colored  href = "https://github.com/Allan-O-Moreno/CS381_FinalProject" rel="noopener noreferrer" target="_blank">GitHub</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+
+        </div>
       )
     } 
     
