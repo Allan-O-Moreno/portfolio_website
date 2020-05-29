@@ -58,7 +58,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png) center / cover'}} >Asteroids Game</CardTitle>
             <CardText>
-              Created a game engine using Ogre3D that consist of a input, graphics, sound, UI, entities, and physics. Utilizing the engine our team created the Team devloped a 3D asteroids game. 
+              Created a game engine using Ogre3D that consist of a input, graphics, sound, UI, entities, and physics. Utilizing the engine our team developed a 3D asteroids game. 
               I focused on the User Interface component of the game.
             </CardText>
             <CardActions border>
