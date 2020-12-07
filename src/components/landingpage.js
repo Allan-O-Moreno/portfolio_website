@@ -31,10 +31,12 @@ class Landing extends Component{
                                     <a href="https://github.com/Allan-O-Moreno?tab=repositories" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                     </a>
-
+                                    
                                 
 
                                 </div>
+
+                               <p>Site created with React</p>
 
 
 
