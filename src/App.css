@@ -7,7 +7,7 @@ background: black;
 .landing-grid {
   background-image: url('https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg'); /* space image*/ 
   background-repeat: no-repeat ; /* Used so image bacgkround wont repeat*/ 
-  background-size: 100%; 
+  background-size:  100% 100%; 
   text-align:center;
   position: fixed;
   top: 0;
@@ -122,7 +122,7 @@ background: black;
 .aboutme-body {
   background-image: url('https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg'); 
   background-repeat: no-repeat ; 
-  background-size: 100%;
+  background-size:  100% 100%; 
   text-align:center;
   position: fixed;
   top: 0;
