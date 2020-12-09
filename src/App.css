@@ -1,20 +1,20 @@
-.header-color {
-background: #833ab4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.mdl-layout__header-row{   /*  Navigation Bar  */
+background: black;  
+
 
 }
  /* landing page */ 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg'); /* space image*/ 
+  background-repeat: no-repeat ; /* Used so image bacgkround wont repeat*/ 
+  background-size: 100%; 
   text-align:center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  
   }
 
   .avatar-img {
@@ -115,19 +115,14 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 }
 
 
-/* Resume Page css */
-.resume-right-col {
-  background: #27221F;
-  color: white;
-  padding: 2em;
-}
+
 
 
 /* About Me Page */
 .aboutme-body {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg'); 
+  background-repeat: no-repeat ; 
+  background-size: 100%;
   text-align:center;
   position: fixed;
   top: 0;
@@ -181,3 +176,18 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 
 }
 
+.about_block{
+  background-color: black;
+  opacity: .8;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+
+}
+.about_description{
+  color: white;
+  font-weight: bold;
+  width: '75%';
+  margin: 'auto';
+  
+}
