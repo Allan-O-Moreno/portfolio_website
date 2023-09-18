@@ -26,7 +26,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (775) 895-9814
+                    (775)895-9814
                   </ListItemContent>
                 </ListItem>
 
